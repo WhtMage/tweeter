@@ -1,4 +1,5 @@
 .new-tweet {
+  display: none;
   background-color: #eee;
   height: 155px;
   border: 1px solid #b7b7b7;

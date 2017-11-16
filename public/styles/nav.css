@@ -6,7 +6,31 @@
   width: 100%;
   padding-right: 2em;
   padding-left: 2em;
+  z-index: 1;
 }
+
+#nav-bar button{
+  opacity:0.5;
+  margin-top: 17px;
+  font-size: 150%;
+  border-radius: 5px;
+  border: 2px solid #e8fdff;
+  height: 45px;
+  width: 150px;
+  text-align: center;
+  float: right;
+  background-color: #00a087;
+  color: #e8fdff;
+}
+
+#nav-bar button:hover{
+  opacity: 0.9;
+}
+
+#nav-bar .fa{
+  padding-right: 10px;
+}
+
 
 #nav-bar .logo {
   height: 80px;

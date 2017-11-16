@@ -4,7 +4,7 @@ function updateCountdown() {
   // var remaining = 140 - $(this).val().length;
   $('.message').on("keyup", function(){
     var remaining = 140 - $(this).val().length;
-    $(this).parent('#tweet-button').children('.counter').text(remaining);
+    $(this).siblings('.counter').text(remaining);
 
     if($(this).siblings('.counter').text() < 0) {
       $(this).siblings('.counter').css({'color': 'red'})

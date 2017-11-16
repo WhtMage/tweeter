@@ -17,6 +17,10 @@ header {
 
 .tweetsBox {
   opacity: 0.5;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  margin-top:10px;
+  margin-bottom: 10px;
 }
 
 .tweetsBox:hover {
@@ -36,12 +40,11 @@ footer .icons{
 
 .tweetsSection {
   margin-top: 10px;
-  border: 1px solid #b7b7b7;
-  border-radius: 5px;
 }
 
+
 .tweetsSection div{
-  line-height: 2em;
+  line-height: 1em;
   padding:10px;
   text-align: left;
   height: 120px;
@@ -65,4 +68,5 @@ footer .icons{
 footer {
   border-top: 1px solid #b7b7b7;
   padding-left: 10px;
+  height: 50px;
 }
