@@ -55,7 +55,7 @@ function createTweetElement(data){
   var avatar = data.user.avatars.small;
   var handle = data.user.handle;
   var content = data.content.text;
-  var createdOn = data.created_at;
+  var createdOn = new Date(data.created_at);
 
   var $tweet = $("<article>").addClass("tweetsBox");
   $tweet.append(`
