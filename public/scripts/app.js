@@ -44,7 +44,7 @@ function loadTweets(tweet){
 function renderTweets(tweets){
   for(var i = 0; i < tweets.length; i++){
     var createdTweet = createTweetElement(tweets[i]);
-    $(".tweetsSection").append(createdTweet);
+    $(".tweetsSection").prepend(createdTweet);
   }
 }
 
