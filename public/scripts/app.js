@@ -1,5 +1,3 @@
-//Prevents the Tweet button from redirecting you to another page
-
 
 $(document).ready(function(){
   var $message = $('.message')
